@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>O Enigma da Galáxia Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src=cenario1.jpg alt="Observatório Antigo">
+            <p>Em uma noite tranquila, enquanto explorava um velho observatório abandonado, você encontrou um mapa estelar misterioso. O mapa parecia indicar a localização de uma galáxia perdida, onde supostamente estão escondidos segredos antigos sobre a origem do universo. Você decide seguir o mapa e embarcar em uma jornada espacial!</p>
+            <button class="btn-proximo" data-proximo="1">Viajar para a Lua</button>
+            <button class="btn-proximo" data-proximo="2">Viajar para Marte</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada pousando na Lua. No meio das crateras, encontra uma inscrição alienígena indicando que a próxima pista está em um satélite orbitando um planeta desconhecido.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar o satélite</button>
+            <button class="btn-proximo" data-proximo="4">Retornar à Terra</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Em Marte, você pousa em uma antiga base de pesquisa. Dentro da base, há fragmentos de informações que sugerem que a galáxia perdida pode ser acessada através de um buraco de minhoca escondido perto de Júpiter. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para Júpiter</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a superfície de Marte</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>No satélite, você encontra uma nave espacial abandonada que ainda tem energia. Os sistemas de navegação indicam uma rota para um sistema solar distante.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a rota</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src=cenario2.jpg alt="Nave retornando à Terra">
+            <p>Você decide que a exploração é arriscada demais e retorna à Terra. No entanto, a dúvida sobre o que poderia ter encontrado sempre permanece.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Chegando perto de Júpiter, você encontra o buraco de minhoca. Ele brilha com uma energia desconhecida, e você sente que está prestes a desvendar um grande mistério.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no buraco de minhoca</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando Marte, você descobre uma caverna misteriosa, mas ela termina em um beco sem saída. Aparentemente, essa não é a pista certa.</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para Júpiter</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao atravessar o buraco de minhoca, você emerge em uma galáxia distante. No centro dela, há um planeta que brilha intensamente. Você sente que está perto da verdade.</p>
+            <button class="btn-proximo" data-proximo="9">Pousar no planeta</button>
+            <button class="btn-proximo" data-proximo="10">Explorar o espaço ao redor</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao pousar no planeta, você descobre uma civilização antiga que deixou para trás tecnologia avançada. Você agora tem a chance de estudar esses segredos e compartilhar com a humanidade.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a tecnologia</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Explorando o espaço ao redor da galáxia, você encontra sinais de vida alienígena, mas sem pistas sobre a origem da galáxia perdida. O verdadeiro segredo ainda está por descobrir.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar ao planeta brilhante</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src=cenario1.jpg alt="Paisagem alienígena distante">
+            <p>Você descobre que essa tecnologia alienígena é capaz de manipular o espaço-tempo. Sua descoberta pode mudar o curso da humanidade para sempre.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
